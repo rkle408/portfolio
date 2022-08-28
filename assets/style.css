@@ -1,0 +1,42 @@
+:root {
+    --headfootbackground: powderblue;
+    --headfootfont: black;
+    --navhead-color: cadetblue;
+    --navlink-color: rgb(39, 86, 216);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    color: var(--headfootfont);
+    background-color: var(--headfootbackground);
+    font-size: 30px;
+}
+
+nav {
+    text-align: center;
+    background-color: var(--navhead-color);
+    font-size: 25px;
+    margin: 5px;
+}
+
+
+
+
+
+
+footer {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0;
+    padding: 10px;
+    color: var(--headfootfont);
+    background-color: var(--headfootbackground);
+}
