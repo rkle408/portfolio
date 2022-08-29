@@ -114,3 +114,14 @@ footer li {
     padding: 15px;
 }
 
+@media screen and (max-width: 992px) {
+    header {
+      background-color: darkolivegreen;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      background-color: gray;
+    }
+  }
