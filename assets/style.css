@@ -20,15 +20,25 @@ header {
     text-align: left;
     color: var(--headfootfont);
     background-color: var(--headfootbackground);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
     font-size: 30px;
 }
 
-nav {
-    text-align: right;
-    background-color: var(--navhead-color);
-    font-size: 25px;
-    padding: 10px;
-    border: 10px;
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 nav li {
@@ -43,7 +53,7 @@ a:link {
 }
   
 a:visited {
-    color: red;
+    color: darkred;
 }
   
 a:hover {
@@ -53,11 +63,6 @@ a:hover {
   
 a:active {
     color: blue;
-}
-
-h2 {
-    font-size: 20px;
-    font-weight: bold;
 }
 
 /* Will reformat since moved 'Contact me'  */
