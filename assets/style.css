@@ -74,6 +74,22 @@ a:active {
     color: blue;
 }
 
+.phone::before {
+    content: "📞 ";
+}
+
+.email::before {
+    content: "📧 ";
+}
+
+.github::before {
+    content: "📂 ";
+}
+
+.linkedin::before {
+    content: "👔 ";
+}
+
 /* Will reformat since moved 'Contact me'  */
 footer {
     font-size: 20px;
