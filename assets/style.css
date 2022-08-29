@@ -9,39 +9,43 @@ body {
     margin: 0px;
 }
 
-/* Need to figure out how to get these words to space apart  */
 header {
+ 
     padding: 60px;
-    text-align: center;
+    text-align: left;
     color: var(--headfootfont);
     background-color: var(--headfootbackground);
     font-size: 30px;
 }
 
 nav {
-    text-align: center;
+    text-align: right;
     background-color: var(--navhead-color);
     font-size: 25px;
     padding: 10px;
     border: 10px;
 }
 
-/* Unvisited link */
+nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+/* Need to decide colors later!  */
+/* Link varieties */
 a:link {
     color: darkblue;
 }
   
-  /* Visited link */
 a:visited {
     color: red;
 }
   
-  /* Mouse over link */
 a:hover {
     color: hotpink;
+    cursor: pointer;
 }
   
-  /* Selected link */
 a:active {
     color: blue;
 }
@@ -49,7 +53,6 @@ a:active {
 
 
 
-/* Need to figure out how to get this area to space apart  */
 footer {
     font-size: 20px;
     display: flex;
@@ -59,4 +62,9 @@ footer {
     padding: 10px;
     color: var(--headfootfont);
     background-color: var(--headfootbackground);
+}
+
+footer li {
+    display: inline-block;
+    padding: 15px;
 }
