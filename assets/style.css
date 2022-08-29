@@ -13,6 +13,7 @@ body {
     margin: 0px;
     padding: 0;
     background-color: antiquewhite;
+    line-height: 25px;
 }
 
 header {
@@ -29,6 +30,14 @@ header {
 
 header li {
     font-size: 30px;
+}
+
+main {
+    margin: 30px;
+}
+
+main section {
+    margin-bottom: 40px;
 }
 
 h1 {
