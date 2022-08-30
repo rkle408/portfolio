@@ -12,5 +12,8 @@ As I was building this HTML and CSS code, I learned that I still have much to le
 
 Deploy website: https://rkle408.github.io/portfolio/
 
-Screenshot:
+Screenshot of Desktop view:
 ![screencapture-rkle408-github-io-portfolio-2022-08-29-17_30_14](https://user-images.githubusercontent.com/108099192/187322174-8f276a60-7812-40e1-a344-f0fa5f00f778.png)
+
+Screenshot of minimized window view (max width set to 768px):
+![screencapture-rkle408-github-io-portfolio-2022-08-29-17_33_51](https://user-images.githubusercontent.com/108099192/187322373-7753646a-980e-4394-a218-a3dcdcbfd52b.png)
