@@ -16,6 +16,9 @@ As I was building this HTML and CSS code, I learned that I still have much to le
 ### Deploy website: https://rkle408.github.io/portfolio/
 
 ## Screenshots
+- Desktop view (September 16, 2022):
+![screencapture-rkle408-github-io-portfolio-2022-09-16-01_18_57](https://user-images.githubusercontent.com/108099192/190591661-a89e1c54-f5b1-40dd-a33f-d8307d13b385.png)
+
 - Desktop view (Aug 30, 2022):
 ![screencapture-rkle408-github-io-portfolio-2022-08-29-17_30_14](https://user-images.githubusercontent.com/108099192/187322174-8f276a60-7812-40e1-a344-f0fa5f00f778.png)
 
