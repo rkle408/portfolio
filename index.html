@@ -64,72 +64,78 @@
         </nav>
     </header>
 
+    <br>
+
     <main>
-        <section class="about" id="about">
-            <h2>About</h2>
-                <section>
-                    <figure>
-                        <img src="./assets/images/rosa-le-full.jpg" alt="Photo of Rosa in blue shirt with green blurred background">
+        <section class="tile is-ancestor" id="">
+            <section class="tile is-vertical is-5">
+              <section class="tile">
+                <section class="tile is-parent is-vertical">
+                  <article class="tile is-child notification is-primary" id="headshot-photo">
+                    <p class="title">Nice to Meet You!</p>
+                    <figure class="image is-1by1">
+                      <img class="is-rounded" src="./assets/images/rosa-le-cropped.png" alt="Headshot of Rosa">
                     </figure>
+                  </article>
+
+                  <article class="tile is-child notification is-warning" id="contact">
+                    <p class="title" >Contact</p>
+                    <p class="subtitle">Looking forward to connecting with you</p>
+                    <li class="phone">(408) 555-5555</li>
+                    <li><a href="mailto: rkle408@gmail.com" target="_blank" class="email">Email me:</a> <b>rkle408@gmail.com</b></li>
+                    <li><a href="https://github.com/rkle408" target="_blank" class="github">GitHub</a></li>
+                    <li class="linkedin">LinkedIn: Coming Soon</li>
+                  </article>
+                </section>
+
+                <section class="tile is-parent" id="about">
+                  <article class="tile is-child notification is-info">
+                    <p class="title">About Me</p>
+                    <p class="subtitle">Dentist developing into a Developer!</p>
                     <p>
                         My first experience with coding was customizing a MySpace page. I remember seeing someone else's page had features that none of the rest of our pages had,
                         so I sent her a message, and asked how she was able to select those features. She sent me a message back, "you can't select, you need to code. you can start here,"
                         and she sent me a website that had HTML code, which may as well have been a foreign language. The rest was up to me to do my own research... Next thing you know,
                         I had photos in the "Bio" section (unheard of!), and music playing (no, sorry, you can't pause it... yes, it's only one song on repeat.)
-                    </p>
+                    </p><br>
                     <p>
                         I look forward to continuing my education, and facing challenges to learn how to become an effective and efficient developer. I hope that one day, I'll be able to integrate my knowledge of coding and dentistry.
-                    </p>
-                </section>
-        </section>
-
-        <section class="work">
-            <h2>Work</h2>
-                <section>
-                    <figure>
-                        <a href="https://www.denverhealth.org/services/dental-care" target="_blank">
-                        <img class="working" src="./assets/images/rosa-dentistry-text.jpg" alt="Photo of Rosa doing a dental exam on a patient">
-                        </a>
-                    </figure>    
-                    <figcaption>Image from: Denver Health - Accessed Aug. 29, 2022</figcaption>
-                    <p>
-                        As a dentist, I would like to create web applications that are functional and educational for both dental offices and their patients.
-                    </p>
-                    <figure>
-                        <a href="https://www.lsusd.lsuhsc.edu/Documents/Axium/Treatment%20Planning%20Test%20Cases.pdf" target="_blank">
-                        <img class="odontogram" src="./assets/images/axium-odontogram-text.png" alt="Screen capture of Axium's odontogram">
-                        </a>
+                    </p><br>
+                    <figure class="image is-5by3">
+                        <img src="./assets/images/rosa-dentistry.jpg" alt="Dr. Rosa doing an exam on a patient">
+                        <figcaption>Image from: Denver Health - Accessed Aug. 29, 2022</figcaption>
                     </figure>
-                    <figcaption>Image from: LSU School of Dentistry - Accessed Aug. 29, 2022</figcaption>
-                    <p>
-                        I would also like to create a better functioning electronic health record application that would allow dentists to note important details that may otherwise be forgotten, and has more information and functions that are just not available on the market now.
-                    </p>
+                  </article>
                 </section>
-        </section>
+              </section>
 
-        <section class="contact" id="contact">
-            <h2>Contact Me</h2>
-                <ul>
-                    <li class="phone">(408) 555-5555</li>
-                    <li><a href="mailto: rkle408@gmail.com" target="_blank" class="email">Email me</a></li>
-                    <li><a href="https://github.com/rkle408" target="_blank" class="github">GitHub</a></li>
-                    <li class="linkedin">LinkedIn: Coming Soon</li>
-                </ul>
-        </section>
+              <section class="tile is-parent" id="resume">
+                <article class="tile is-child notification is-link">
+                  <p class="title" >Resume</p>
+                  <p class="subtitle">Coming soon!</p>
+                  <section class="content">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni blanditiis nemo possimus veniam veritatis! Voluptatem, facere possimus! Voluptate neque minus voluptates pariatur molestias vel voluptatum unde beatae, blanditiis ipsum repellat.
+                  </section>
+                </article>
+              </section>
+            </section>
 
-        <section class="resume" id="resume">
-            <h2>Resume</h2>
-                <section>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo consectetur, perferendis provident vero reiciendis obcaecati sapiente soluta veniam? Corrupti consequuntur quibusdam saepe eos quasi earum, quod dolorem omnis similique iste!
+            <section class="tile is-parent" id="work">
+              <article class="tile is-child notification is-success">
+                <section class="content">
+                  <p class="title">Projects</p>
+                  <p class="subtitle">Take a look at my work!</p>
+                  <section class="content">
+                    <!-- Content -->
+                  </section>
                 </section>
-        </section>
+              </article>
+            </section>
+          </section>
+        
     </main>
 
 </body>
-
-<footer>
-    <h3>Rosa Productions 2022</h3>
-</footer>
     
     <script type="text/javascript" src="./assets/js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
